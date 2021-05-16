@@ -42,6 +42,7 @@ class StudentSetTest {
     void testRemove(){
         fillSet();
         Boolean isRemoved = studentSet.removeAll(studentSet); //remove
+        
 
         assertEquals(true,isRemoved);
         System.out.println("Students removed from Set");

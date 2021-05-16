@@ -28,7 +28,7 @@ class StudentListTest {
     }
 
     @Test
-    //add to List
+    //Add to List
     void testAdd(){
         fillList();
         studentList.add(100, new Student("S202"));
@@ -38,7 +38,7 @@ class StudentListTest {
     }
 
     @Test
-    //remove from list
+    //Remove from list
     void testRemove(){
         fillList();
         studentList.remove(23);
@@ -48,7 +48,12 @@ class StudentListTest {
         System.out.println("Student removed from List");
     }
 
-    //@Test
-    //void testFind(){}
+    @Test
+    //Find in List
+    void testFind(){
+        fillList();
+        int S001 = studentList.indexOf(100);
+        System.out.println(studentList + "S001");
+    }
 
 }
