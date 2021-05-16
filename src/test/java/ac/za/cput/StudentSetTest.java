@@ -6,6 +6,11 @@ import java.util.HashSet;
 import java.util.Set;
 
 import static org.junit.jupiter.api.Assertions.*;
+/**
+ * Student Number: 219035709
+ * Author: Emilio Castano
+ * Date Due: 16/5/2021
+ */
 
 class StudentSetTest {
 
@@ -37,6 +42,7 @@ class StudentSetTest {
     void testRemove(){
         fillSet();
         Boolean isRemoved = studentSet.removeAll(studentSet); //remove
+        
 
         assertEquals(true,isRemoved);
         System.out.println("Students removed from Set");

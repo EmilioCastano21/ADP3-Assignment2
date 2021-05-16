@@ -7,6 +7,12 @@ import java.util.Map;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * Student Number: 219035709
+ * Author: Emilio Castano
+ * Date Due: 16/5/2021
+ */
+
 class StudentMapTest {
 
     Map<Integer, Student> studentMap = new HashMap<>();
